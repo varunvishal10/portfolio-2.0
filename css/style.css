@@ -15,7 +15,7 @@
   }
   
   .s1 {
-      background: url(../images/bg.svg);
+      background: url("../bg.svg");
       background-attachment: fixed;
       background-size: cover;
   }
