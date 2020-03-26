@@ -1,6 +1,6 @@
 var pos = 0;
 var turn = 0;
-var data = ['Designs', 'Develops', 'Code'];
+var data = ['Designs', 'Develops', 'Codes'];
 var speed = 200;
 
 setTimeout(typeWriter, speed);
