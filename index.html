@@ -2,29 +2,17 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.js"></script>
-    <script type="text/javascript" src="js/fullpage.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('#fullpage').fullpage({
-                sectionsColor: ['#16151f', '#121212', '#221f1f', '#263238', '#16151f', '#121212'],
-                navigation: true,
-                responsive: 800,
-                slidesNavigation: true,
-                anchors: ['home', 'about', 'services', 'works', 'achievements', 'contact'],
-                navigationTooltips: ['Home', 'About', 'Services', 'Works', 'Achievements', 'Contact']
-            });
-
-
-        });
-    </script>
+    <!-- NOT A TEMPLATE, SO CHILL -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Varun Vishal</title>
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="icon" href="images/vv1.png">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/port1.css">
+    <link rel="stylesheet" href="css/port2.css">
+    <link rel="stylesheet" href="css/port3.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -32,11 +20,13 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600%7CPoppins:400,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.css">
+
 </head>
 
 <body>
 
     <div id="fullpage">
+
         <div class="section s1">
             <div id="head">
                 <div class="container">
@@ -56,7 +46,6 @@
                             <span class='type-cursor'>|</span>
                         </div>
                     </div>
-
                     <br><br>
                     <div class="row">
                         <div class="social">
@@ -66,40 +55,479 @@
                             <span class="linkedin"><a href="https://www.facebook.com/varun.vishal.94" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a></span>
                             <span class="linkedin"><a href="https://www.twitter.com/vviz10" target="_blank" rel="noopener"><i class="fa fa-twitter"></i></a></span>
                             <span>|</span>
-                            <span><i class="ion ion-ios-pin"></i> Kolkata</span>
+                            <span><i class="ion ion-ios-pin"></i>  Kolkata</span>
                         </div>
                     </div>
                 </div>
-
-
                 <br>
                 <div class="row">
-                    <a href="#" class="scroll-down" address="true"></a>
+                    <a href="#about" class="scroll-down" address="true" style="scroll-behavior: smooth;"></a>
                 </div>
             </div>
         </div>
+
+
         <div class="section s2" id="about1">
+            <br>
             <div class="container">
-                <h1>1</h1>
+                <div class="s2head">
+                    <div class="row">
+                        <h6>WHO AM I</h6>
+                    </div>
+                    <div class="row">
+                        <h2>About Me</h2>
+                    </div>
+                </div>
+                <br>
+                <br><br><br>
+                <div class="row">
+                    <div class="col-lg-6" align="center">
+                        <figure class="dpef">
+                            <img src="images/dp.jpeg" alt="" width="75%" id="dppc" class="vert-move">
+                            <figcaption>
+                                <p>
+                                    <a href="https://github.com/varunvishal10" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+                                    <a href="https://www.linkedin.com/in/varun-vishal" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a><br>
+                                    <a href="https://www.behance.net/varunvishal" target="_blank"><i class="fa fa-fw fa-behance"></i></a>
+                                    <a href="https://www.facebook.com/varun.vishal.94" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
+                                </p>
+                            </figcaption>
+                        </figure>
+                        <!-- <img src="images/dpmobile.jpeg" alt="" width="80%" id="dpmobile"> -->
+                    </div>
+                    <div class="col-lg-6" style="margin-top: 5%;">
+                        <div class="hide" align="center">
+                            <h3>Hi! I'm Varun Vishal</h3>
+                            <br>
+                            <p>
+                                A UI/UX Designer and A Web Developer. Currently associated with GDG Kolkata and DSC NSEC. Takes an interest in coding however not everything about me is designs and code snippets, have a particular proclivity in playing the guitar along with various other
+                                instruments, takes an interest in music composition and capturing the moments that can be considered as hobbies.
+                            </p>
+                            <br>
+                            <a href="images/varun.pdf" target="_blank"> <button class="button12"> <i class="fa fa-download"></i> Resume</button> </a>
+                        </div>
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section s3">
+            <div class="hideit">
+                <br>
+            </div>
+            <div class="container">
+                <div class="s3head">
+                    <div class="row">
+                        <h6>WHAT I DO</h6>
+                    </div>
+                    <div class="row">
+                        <h2>My Services</h2>
+                    </div>
+                </div>
+                <br><br>
+                <div class="row dets" align="center">
+                    <div class="col-lg-4">
+                        <img src="images/d10.svg" alt="" width="45%" class="vert-move">
+                        <br><br><br>
+                        <p>UI/UX Design</p>
+                        <br>
+                        <p>Graphic Design</p>
+                        <br>
+                        <p>Mobile App Design</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/d9.svg" alt="" width="45%" class="vert-move">
+                        <br><br><br>
+                        <p>HTML/CSS</p>
+                        <br>
+                        <p>React JS</p>
+                        <br>
+                        <p>React Native</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/d11.svg" alt="" width="45%" class="vert-move">
+                        <br><br><br>
+                        <p>UX Strategy</p>
+                        <br>
+                        <p>Wireframing</p>
+                        <br>
+                        <p>Prototyping</p>
+                    </div>
+
+
+                    <!-- <div class="col-lg-4">
+                        <br>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/d10.svg" class="card-img-top vert-move" alt="...">
+                            <br><br>
+                            <div class="card-body">
+                                <p>UI/UX Design</p>
+                                <br>
+                                <p>Graphic Design</p>
+                                <br>
+                                <p>Mobile App Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <br>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/d9.svg" class="card-img-top vert-move" alt="...">
+                            <br><br>
+                            <div class="card-body">
+                                <p>HTML/CSS</p>
+                                <br>
+                                <p>React JS</p>
+                                <br>
+                                <p>React Native</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <br>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/d11.svg" class="card-img-top vert-move" alt="...">
+                            <br><br>
+                            <div class="card-body">
+                                <p>UX Strategy</p>
+                                <br>
+                                <p>Wireframing</p>
+                                <br>
+                                <p>Prototyping</p>
+                            </div>
+                        </div>
+                    </div> -->
+
+                </div>
+                <br><br><br>
+            </div>
+        </div>
+
+
+        <div class="section s4">
+            <div class="hideit">
+                <br><br>
+            </div>
+            <div class="container">
+                <div class="s4head">
+                    <div class="row">
+                        <h6>PORTFOLIO</h6>
+                    </div>
+                    <div class="row">
+                        <h2>My Designs</h2>
+                    </div>
+                    <br>
+                    <section class="main">
+
+                        <ul class="ch-grid">
+                            <li>
+                                <div class="ch-item ch-img-1">
+                                    <div class="ch-info-wrap">
+                                        <div class="ch-info">
+                                            <div class="ch-info-front ch-img-1"></div>
+                                            <div class="ch-info-back">
+                                                <h3>E-Commerce Website UI</h3>
+                                                <p><br> <a href="https://www.behance.net/gallery/94228867/E-Commerce-Website-UI" target="_blank">View on Behance</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+                            <li>
+                                <div class="ch-item ch-img-2">
+                                    <div class="ch-info-wrap">
+                                        <div class="ch-info">
+                                            <div class="ch-info-front ch-img-2"></div>
+                                            <div class="ch-info-back">
+                                                <h3>Food Delivery App UI</h3>
+                                                <p><br> <a href="https://www.behance.net/gallery/94228145/Go-Cuisine-A-Food-Delivery-App-UI" target="_blank">View on Behance</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ch-item ch-img-5">
+                                    <div class="ch-info-wrap">
+                                        <div class="ch-info">
+                                            <div class="ch-info-front ch-img-5"></div>
+                                            <div class="ch-info-back">
+                                                <h3>Lamp Store App UI</h3>
+                                                <p> <br><a href="https://www.behance.net/gallery/94267317/Lumos-Store-Lamp-Store-App-UI" target="_blank">View on Behance</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ch-item ch-img-3">
+                                    <div class="ch-info-wrap">
+                                        <div class="ch-info">
+                                            <div class="ch-info-front ch-img-3"></div>
+                                            <div class="ch-info-back">
+                                                <h3> Music Player <br> UI</h3>
+                                                <p><br> <a href="https://www.behance.net/gallery/94045655/Music-Player-UI" target="_blank">View on Behance</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ch-item ch-img-6">
+                                    <div class="ch-info-wrap">
+                                        <div class="ch-info">
+                                            <div class="ch-info-front ch-img-6"></div>
+                                            <div class="ch-info-back">
+                                                <h3>Dashboard Dark UI</h3>
+                                                <p> <br><a href="https://i.imgur.com/Xb2ewqz.png" target="_blank">View this image</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="ch-item ch-img-4">
+                                    <div class="ch-info-wrap">
+                                        <div class="ch-info">
+                                            <div class="ch-info-front ch-img-4"></div>
+                                            <div class="ch-info-back">
+                                                <h3>Movie Ticket Booking App UI</h3>
+                                                <p> <br><a href="https://www.behance.net/gallery/94045917/Movie-Ticket-Booking-App-UI" target="_blank">View on Behance</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+
+                        </ul>
+                        <br>
+                    </section>
+                    </div>
+
+                </div>
             </div>
 
-        </div>
-        <div class="section s3">
-            <h1>2</h1>
-        </div>
-        <div class="section s4">
-            <h1>3</h1>
-        </div>
-        <div class="section s5">
-            <h1>4</h1>
-        </div>
-        <div class="section s6">
-            <h1>5</h1>
-        </div>
-    </div>
 
-    <script src="js/type.js"></script>
+            <div class="section s5">
+                <div class="hideit">
+                    <br>
+                </div>
+                <div class="container">
+                    <div class="s4head">
+                        <div class="row">
+                            <h6>PORTFOLIO</h6>
+                        </div>
+                        <div class="row">
+                            <h2>My Websites</h2>
+                        </div>
+                        <br>
+                        <section class="main">
 
+                            <ul class="ch-grid">
+                                <li>
+                                    <div class="ch-item ch-img-7">
+                                        <div class="ch-info-wrap">
+                                            <div class="ch-info">
+                                                <div class="ch-info-front ch-img-7"></div>
+                                                <div class="ch-info-back">
+                                                    <h3>Multimedia Search Engine</h3>
+                                                    <p><br> <a href="https://varunvishal10.github.io/tcfvison" target="_blank">Visit Website</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li>
+                                    <div class="ch-item ch-img-8">
+                                        <div class="ch-info-wrap">
+                                            <div class="ch-info">
+                                                <div class="ch-info-front ch-img-8"></div>
+                                                <div class="ch-info-back">
+                                                    <h3>Winter of Code Website</h3>
+                                                    <p><br> <a href="https://www.winterofcode.com" target="_blank">Visit Website</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ch-item ch-img-9">
+                                        <div class="ch-info-wrap">
+                                            <div class="ch-info">
+                                                <div class="ch-info-front ch-img-9"></div>
+                                                <div class="ch-info-back">
+                                                    <h3>Inceptra Website</h3>
+                                                    <p><br> <a href="https://varunvishal10.github.io/inceptra" target="_blank">Visit Website</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ch-item ch-img-10">
+                                        <div class="ch-info-wrap">
+                                            <div class="ch-info">
+                                                <div class="ch-info-front ch-img-10"></div>
+                                                <div class="ch-info-back">
+                                                    <h3>Miles to Go Website</h3>
+                                                    <p>Rajwrita Nath <br> Anchal Agarwal<br><a href="https://varunvishal10.github.io/mtg/" target="_blank">Visit Website</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ch-item ch-img-11">
+                                        <div class="ch-info-wrap">
+                                            <div class="ch-info">
+                                                <div class="ch-info-front ch-img-11"></div>
+                                                <div class="ch-info-back">
+                                                    <h3> Book Yur Spot Website</h3>
+                                                    <p> <br><a href="https://varunvishal10.github.io/book" target="_blank">Visit Website</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ch-item ch-img-12">
+                                        <div class="ch-info-wrap">
+                                            <div class="ch-info">
+                                                <div class="ch-info-front ch-img-12"></div>
+                                                <div class="ch-info-back">
+                                                    <h3>GCP Crash Course Website</h3>
+                                                    <p> <br><a href="https://gcc.dscnsec.com" target="_blank">Visit Website</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <br>
+                        </section>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="section s6">
+                    <br>
+                    <div class="container">
+                        <div class="s6head">
+                            <div class="row">
+                                <h6>MY SMALL MILESTONES</h6>
+                            </div>
+                            <div class="row">
+                                <h2>Achievements</h2>
+                            </div>
+                        </div>
+                        <br><br><br>
+                        <div class="row" id="count" align="center">
+                            <div class="col-lg-4">
+                                <br><br>
+                                <img src="images/d6.svg" alt="" width="44%" class="vert-move">
+                                <br><br>
+                                <h1><span class="counter">100</span> +</h1>
+                                <h3>Designs Made</h3>
+                            </div>
+                            <div class="col-lg-4">
+                                <br><br>
+                                <img src="images/d4.svg" alt="" width="50%" class="vert-move">
+                                <br><br>
+                                <h1><span class="counter">20</span> +</h1>
+                                <h3>Websites Developed</h3>
+                            </div>
+                            <div class="col-lg-4">
+                                <br><br>
+                                <img src="images/d3.svg" alt="" width="38%" class="vert-move">
+                                <br><br>
+                                <h1><span class="counter">1000</span> +</h1>
+                                <h3>Cups of Coffee</h3>
+                            </div>
+                        </div>
+                        <br><br>
+                    </div>
+                </div>
+
+                <div class="section s7">
+                    <br>
+                    <div class="container">
+                        <div class="s6head">
+                            <div class="row">
+                                <h6>CHAI / COFFEE ?</h6>
+                            </div>
+                            <div class="row">
+                                <h2>Contact Me</h2>
+                            </div>
+                        </div>
+                        <br><br><br><br>
+                        <div class="row" align="center">
+                            <div class="col-lg-4">
+                                <br>
+                                <img src="images/direction.svg" alt="" width="50%" class="vert-move">
+                                <br><br>
+                                <p>Nayabad, Kolkata</p>
+                                <p>700094</p>
+                            </div>
+                            <div class="col-lg-4">
+                                <br>
+                                <img src="images/call.svg" alt="" width="50%" class="vert-move">
+                                <br><br>
+                                <p> <a href="tel:6203230144">+91 6203230144</a>
+                                </p>
+                                <p>
+                                    <a href="tel:8271256678">+91 8271256678</a>
+                                </p>
+                            </div>
+                            <div class="col-lg-4">
+                                <br>
+                                <img src="images/mail.svg" alt="" width="45%" class="vert-move">
+                                <br><br>
+                                <a href="mailto:varunvishal10@gmail.com?Subject=Hello%20Varun" target="_top"><button class="button13">Say Hello <i class="fa fa-mail"></i></button></a>
+                            </div>
+                        </div>
+                        <br><br><br><br><br>
+                        <footer align="center">
+                            <div class="copyright">
+                                2020 &copy; Varun Vishal | <a href="">  Sitemap</a>
+                            </div>
+                        </footer>
+
+
+                        <br>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <script src="js/type.js"></script>
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.js"></script>
+            <script type="text/javascript" src="js/fullpage.js"></script>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $('#fullpage').fullpage({
+                        sectionsColor: ['#16151f', '#121212', '#191919', '#101f1f', '#16151f', '#121212', '#162626'],
+                        navigation: true,
+                        responsive: 800,
+                        slidesNavigation: true,
+                        anchors: ['home', 'about', 'services', 'designs', 'websites', 'achievements', 'contact'],
+                        navigationTooltips: ['Home', 'About', 'Services', 'Designs', 'Websites', 'Achievements', 'Contact']
+                    });
+                });
+            </script>
+            <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+            <script src="js/counter-up.js"></script>
+            <script>
+                $('.counter').counterUp({
+                    delay: 10,
+                    time: 2000
+                });
+            </script>
 </body>
 
 </html>
